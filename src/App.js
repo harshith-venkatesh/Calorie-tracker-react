@@ -29,7 +29,7 @@ export default class App extends React.Component {
     calories: 0,
     foodClicked: 0
   };
-  foodClickHandler = calories => {
+  foodClickHandler = (calories) => {
     console.log("Food is clicked", calories);
     this.setState({ calories: this.state.calories + calories });
   };
