@@ -1,0 +1,12 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.tableCSS {
+  margin: auto;
+  overflow-y: auto;
+  height: 80vh;
+}
